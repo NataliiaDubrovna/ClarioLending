@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-size: 100%;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: "Montserrat", Quicksand, Arial, sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+@layer components {
+  .price-block{
+    background: no-repeat top url('../img/PriceWoman.svg')  #483FDD;
+  }
+
+  /*Card Carousel*/
+  .card-carousel {
+    position: relative;
+    outline: none;
+  }
+  .card-carousel .flickity-slider {
+    @apply space-x-[12px];
+    height: inherit;
+  }
+  .card-carousel .flickity-page-dots {
+    display: none;
+  }
+  .card-carousel .flickity-button {
+    @apply rounded-full;
+    position: absolute;
+    bottom: -20px;
+    width:48px;
+    height:48px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    background: #FFFFFF;
+    cursor: pointer;
+  }
+  .card-carousel .flickity-button svg {
+    display: none;
+    outline: none;
+  }
+  .card-carousel .flickity-button.next {
+    background: no-repeat center/20% url('../UI/1-atoms/Icons/carouselRight.svg') #FFFFFF ;
+    left: 50%;
+    margin-left: 16px;
+  }
+  .card-carousel .flickity-button.previous {
+    background: no-repeat center/20% url('../UI/1-atoms/Icons/carouselLeft.svg') #FFFFFF;
+    right: 50%;
+  }
+}
+
