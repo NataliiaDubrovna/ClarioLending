@@ -41,7 +41,7 @@ const ResponseTime: React.FC<React.AllHTMLAttributes<HTMLDivElement>> = ({
 
       <div className={"h-[503px] w-[272px] mx-auto mb-[40px]"}>
         <img
-          src={"/img/PeopleBlock.png"}
+          src={"img/PeopleBlock.png"}
           className={"w-full h-full "}
           alt={"Three steps to resolve your problem"}
         />

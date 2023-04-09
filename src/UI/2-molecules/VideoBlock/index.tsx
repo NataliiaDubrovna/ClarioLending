@@ -23,7 +23,7 @@ const VideoBlock: React.FC<React.AllHTMLAttributes<HTMLDivElement>> = ({
         muted
         className={"mb-[35px] rounded-sm"}
       >
-        <source src={"/videos/Radar_2x.mp4"} type="video/mp4" />
+        <source src={"videos/Radar2x.mp4"} type="video/mp4" />
       </video>
       <Heading
         level={2}
