@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ClarioLending/static/css/main.50a21fb4.css",
-    "main.js": "/ClarioLending/static/js/main.6cc21f84.js",
+    "main.js": "/ClarioLending/static/js/main.a1d33f8e.js",
     "static/js/679.9db9d1ba.chunk.js": "/ClarioLending/static/js/679.9db9d1ba.chunk.js",
     "static/js/787.cd7d7d7f.chunk.js": "/ClarioLending/static/js/787.cd7d7d7f.chunk.js",
     "static/media/Media.svg": "/ClarioLending/static/media/Media.51705a87e8fb7b753490104aa1375767.svg",
@@ -41,12 +41,12 @@
     "static/media/ArrowDown.svg": "/ClarioLending/static/media/ArrowDown.19e4365443917d0f90b955373db08a8d.svg",
     "static/media/Check.svg": "/ClarioLending/static/media/Check.ae19f677e6eb4ce0777d4d384c7bae9a.svg",
     "main.50a21fb4.css.map": "/ClarioLending/static/css/main.50a21fb4.css.map",
-    "main.6cc21f84.js.map": "/ClarioLending/static/js/main.6cc21f84.js.map",
+    "main.a1d33f8e.js.map": "/ClarioLending/static/js/main.a1d33f8e.js.map",
     "679.9db9d1ba.chunk.js.map": "/ClarioLending/static/js/679.9db9d1ba.chunk.js.map",
     "787.cd7d7d7f.chunk.js.map": "/ClarioLending/static/js/787.cd7d7d7f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.50a21fb4.css",
-    "static/js/main.6cc21f84.js"
+    "static/js/main.a1d33f8e.js"
   ]
 }
